@@ -13,6 +13,7 @@
 		D0ED5B8B1DD5CBAC007ACE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED5B891DD5CBAC007ACE89 /* Main.storyboard */; };
 		D0ED5B8D1DD5CBAC007ACE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ED5B8C1DD5CBAC007ACE89 /* Assets.xcassets */; };
 		D0ED5B901DD5CBAC007ACE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ED5B8E1DD5CBAC007ACE89 /* LaunchScreen.storyboard */; };
+		D0ED5B991DD5D129007ACE89 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED5B981DD5D129007ACE89 /* Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D0ED5B8C1DD5CBAC007ACE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0ED5B8F1DD5CBAC007ACE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0ED5B911DD5CBAC007ACE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0ED5B971DD5D129007ACE89 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		D0ED5B981DD5D129007ACE89 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D0ED5B8E1DD5CBAC007ACE89 /* LaunchScreen.storyboard */,
 				D0ED5B911DD5CBAC007ACE89 /* Info.plist */,
 				D0ED5B801DD5CBAC007ACE89 /* Supporting Files */,
+				D0ED5B971DD5D129007ACE89 /* Base64.h */,
+				D0ED5B981DD5D129007ACE89 /* Base64.m */,
 			);
 			path = DES;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED5B991DD5D129007ACE89 /* Base64.m in Sources */,
 				D0ED5B881DD5CBAC007ACE89 /* ViewController.m in Sources */,
 				D0ED5B851DD5CBAC007ACE89 /* AppDelegate.m in Sources */,
 				D0ED5B821DD5CBAC007ACE89 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				D0ED5B961DD5CBAC007ACE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
